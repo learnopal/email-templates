@@ -11,9 +11,7 @@
     <title>Opal Email Template</title>
 
     <style type="text/css">
-        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400..500&display=swap');
-        @import url('https://api.fontshare.com/v2/css?f[]=clash-grotesk@600&display=swap');
-        @import url('https://api.fontshare.com/v2/css?f[]=clash-grotesk@700&display=swap');
+        @import url('https://fonts.cdnfonts.com/css/uber-move-text');
 
         :root {
             color-scheme: only light;
@@ -56,7 +54,7 @@
             max-width: 600px;
             border-spacing: 0;
 
-            font-family: 'Manrope', sans-serif;
+            font-family: 'Uber Move Text', sans-serif;
             font-weight: 500;
             color: #57534E;
         }
@@ -117,10 +115,39 @@
                 </td>
             </tr>
 
-            <!-- YOUR CONTENT HERE -->
+            <tr>
+                <td>
+                    <div
+                        style="align-self: stretch; height: 309px; padding-left: 10px; padding-right: 10px; padding-top: 20px;">
+                        <div
+                            style="color: #57534E; font-size: 24px; font-weight: 600; word-wrap: break-word; padding-top: 10px; padding-bottom: 10px;">
+                            Verify your new Opal account.</div>
+                        <div
+                            style="align-self: stretch; color: #78716C; font-size: 15px; font-weight: 500; word-wrap: break-word">
+                            We’re glad you’re here! To verify your account and continue, use the code below.</div>
+                        <div
+                            style="align-self: stretch; height: 59px; padding-top: 35px; padding-bottom: 35px; text-align: center;">
+                            <div
+                                style="width: fit-content; display: inline-block; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; border-radius: 5px; overflow: hidden; border: 1px #E7E5E4 solid;">
+                                <div style="color: #57534E; font-size: 40px; font-weight: 600; word-wrap: break-word">
+                                    {{verification_code}}</div>
+                            </div>
+                        </div>
+                        <div
+                            style="align-self: stretch; color: #78716C; font-size: 15px; font-weight: 500; word-wrap: break-word; padding-bottom: 15px;">
+                            This code will only be valid for a short period of time. If you didn’t request it, you can
+                            safely ignore
+                            this email. </div>
+                        <div style="width: 36px; height: 10px; position: relative"></div>
+                        <div
+                            style="align-self: stretch; color: #78716C; font-size: 15px; font-weight: 700; word-wrap: break-word">
+                            Thanks,<br />The Opal Team</div>
+                    </div>
+                </td>
+            </tr>
 
             <tr>
-                <td style="padding-top: 40px; padding-bottom: 20px;">
+                <td style="padding-top: 20px; padding-bottom: 20px;">
                     <div class="divider" />
                 </td>
             </tr>
