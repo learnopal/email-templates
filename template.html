@@ -1,159 +1,175 @@
-<!DOCTYPE html
-    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="color-scheme" content="light" />
+		<meta name="supported-color-schemes" content="light" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Opal Email Template</title>
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="color-scheme" content="light" />
-    <meta name="supported-color-schemes" content="light" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Opal Email Template</title>
+		<style type="text/css">
+			@import url("https://fonts.cdnfonts.com/css/uber-move-text");
 
-    <style type="text/css">
-        @import url('https://fonts.cdnfonts.com/css/uber-move-text');
+			:root {
+				color-scheme: only light;
+			}
 
-        :root {
-            color-scheme: only light;
-        }
+			* {
+				padding: 0;
+				margin: 0;
+			}
 
-        * {
-            padding: 0;
-            margin: 0;
-        }
+			body {
+				margin: 0;
+				background-color: white !important;
+			}
 
-        body {
-            margin: 0;
-            background-color: white !important;
-        }
+			table {
+				border-spacing: 0;
+			}
 
-        table {
-            border-spacing: 0;
-        }
+			td {
+				padding: 0;
+			}
 
-        td {
-            padding: 0;
-        }
+			img {
+				border: 0;
+			}
 
-        img {
-            border: 0;
-        }
+			.wrapper {
+				width: 100%;
+				table-layout: fixed;
+				background-color: white !important;
+				padding-top: 30px;
+				padding-bottom: 60px;
+			}
 
-        .wrapper {
-            width: 100%;
-            table-layout: fixed;
-            background-color: white !important;
-            padding-top: 30px;
-            padding-bottom: 60px;
-        }
+			.main {
+				background-color: white !important;
+				margin: 0 auto;
+				width: 100%;
+				max-width: 600px;
+				border-spacing: 0;
 
-        .main {
-            background-color: white !important;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 600px;
-            border-spacing: 0;
+				font-family: "Uber Move Text", sans-serif;
+				font-weight: 500;
+				color: #57534e;
+			}
 
-            font-family: 'Uber Move Text', sans-serif;
-            font-weight: 500;
-            color: #57534E;
-        }
+			.logo {
+				width: 40vw;
+				max-width: 200px;
+				display: inline-block;
+			}
 
-        .logo {
-            width: 40vw;
-            max-width: 200px;
-            display: inline-block;
-        }
+			.divider {
+				width: 100%;
+				height: 3px;
+				border-radius: 100px;
+				background-color: #e5e5e5;
+			}
 
-        .divider {
-            width: 100%;
-            height: 3px;
-            border-radius: 100px;
-            background-color: #E5E5E5;
-        }
+			.footer {
+				width: 100%;
+				display: block;
+				padding-top: 10px;
+			}
 
-        .footer {
-            width: 100%;
-            display: block;
-            padding-top: 10px;
-        }
+			.socials {
+				width: 50%;
+				float: left;
+				display: block;
+			}
 
-        .socials {
-            width: 50%;
-            float: left;
-            display: block;
-        }
+			.socials a {
+				text-decoration: none;
+			}
 
-        .socials a {
-            text-decoration: none;
-        }
+			.copyright {
+				width: 50%;
+				float: right;
+			}
 
-        .copyright {
-            width: 50%;
-            float: right;
-        }
+			.copyright p {
+				float: right;
+				clear: right;
+			}
+		</style>
+	</head>
 
-        .copyright p {
-            float: right;
-            clear: right;
-        }
-    </style>
-</head>
+	<body>
+		<center class="wrapper">
+			<table class="main" width="100%">
+				<tr style="width: 100%; text-align: center">
+					<td>
+						<img
+							src="https://raw.githubusercontent.com/opal-ink/email-templates/master/assets/logo.png"
+							class="logo"
+						/>
+					</td>
+				</tr>
+				<tr>
+					<td style="padding-top: 20px; padding-bottom: 20px">
+						<div class="divider" />
+					</td>
+				</tr>
 
-<body>
-    <center class="wrapper">
-        <table class="main" width="100%">
-            <tr style="width: 100%; text-align: center;">
-                <td>
-                    <img src="https://raw.githubusercontent.com/opal-ink/email-templates/master/assets/logo.png"
-                        class="logo" />
-                </td>
-            </tr>
-            <tr>
-                <td style="padding-top: 20px; padding-bottom: 20px;">
-                    <div class="divider" />
-                </td>
-            </tr>
+				<!-- YOUR CONTENT HERE -->
 
-            <!-- YOUR CONTENT HERE -->
-
-            <tr>
-                <td style="padding-top: 40px; padding-bottom: 20px;">
-                    <div class="divider" />
-                </td>
-            </tr>
-            <tr>
-                <td class="footer">
-                    <div class="socials">
-                        <a href="" target="_blank" style="cursor: pointer;">
-                            <img src="https://raw.githubusercontent.com/opal-ink/email-templates/master/assets/socials/tiktok.png"
-                                style="width: 25px; padding-right: 10px;" />
-                        </a>
-                        <a href="" target="_blank" style="cursor: pointer;">
-                            <img src="https://raw.githubusercontent.com/opal-ink/email-templates/master/assets/socials/youtube.png"
-                                style="width: 25px; padding-right: 10px;" />
-                        </a>
-                        <a href="" target="_blank" style="cursor: pointer;">
-                            <img src="https://raw.githubusercontent.com/opal-ink/email-templates/master/assets/socials/discord.png"
-                                style="width: 25px; padding-right: 10px;" />
-                        </a>
-                        <a href="" target="_blank" style="cursor: pointer;">
-                            <img src="https://raw.githubusercontent.com/opal-ink/email-templates/master/assets/socials/linkedin.png"
-                                style="width: 25px; padding-right: 10px;" />
-                        </a>
-                        <a href="" target="_blank" style="cursor: pointer;">
-                            <img src="https://raw.githubusercontent.com/opal-ink/email-templates/master/assets/socials/instagram.png"
-                                style="width: 25px;" />
-                        </a>
-                    </div>
-                    <div class="copyright">
-                        <p style="font-size: 14px; font-weight: 400; color: #78716C;">(c) 2024
-                            Opal</p>
-                    </div>
-                </td>
-            </tr>
-        </table>
-    </center>
-</body>
-
+				<tr>
+					<td style="padding-top: 40px; padding-bottom: 20px">
+						<div class="divider" />
+					</td>
+				</tr>
+				<tr>
+					<td class="footer">
+						<div class="socials">
+							<a
+								href="https://www.tiktok.com/@learnopal"
+								target="_blank"
+								style="cursor: pointer"
+							>
+								<img
+									src="https://raw.githubusercontent.com/opal-ink/email-templates/master/assets/socials/tiktok.png"
+									style="width: 25px; padding-right: 10px"
+								/>
+							</a>
+							<a href="" target="_blank" style="cursor: pointer">
+								<img
+									src="https://raw.githubusercontent.com/opal-ink/email-templates/master/assets/socials/youtube.png"
+									style="width: 25px; padding-right: 10px"
+								/>
+							</a>
+							<a
+								href="https://www.linkedin.com/company/learnopal/"
+								target="_blank"
+								style="cursor: pointer"
+							>
+								<img
+									src="https://raw.githubusercontent.com/opal-ink/email-templates/master/assets/socials/linkedin.png"
+									style="width: 25px; padding-right: 10px"
+								/>
+							</a>
+							<a
+								href="https://www.instagram.com/learnopal/"
+								target="_blank"
+								style="cursor: pointer"
+							>
+								<img
+									src="https://raw.githubusercontent.com/opal-ink/email-templates/master/assets/socials/instagram.png"
+									style="width: 25px"
+								/>
+							</a>
+						</div>
+						<div class="copyright">
+							<p style="font-size: 14px; font-weight: 400; color: #78716c">
+								(c) 2024 Opal
+							</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</center>
+	</body>
 </html>
