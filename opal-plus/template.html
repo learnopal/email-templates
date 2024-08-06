@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="color-scheme" content="light" />
+		<meta name="supported-color-schemes" content="light" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Opal Email Template</title>
+
+		<style type="text/css">
+			@import url("https://fonts.cdnfonts.com/css/uber-move-text");
+
+			:root {
+				color-scheme: only light;
+			}
+
+			* {
+				padding: 0;
+				margin: 0;
+			}
+
+			body {
+				margin: 0;
+				background-color: white !important;
+			}
+
+			table {
+				border-spacing: 0;
+			}
+
+			td {
+				padding: 0;
+			}
+
+			img {
+				border: 0;
+			}
+
+			.wrapper {
+				width: 100%;
+				table-layout: fixed;
+				background-color: white !important;
+				padding-top: 30px;
+				padding-bottom: 60px;
+			}
+
+			.main {
+				background-color: white !important;
+				margin: 0 auto;
+				width: 100%;
+				max-width: 600px;
+				border-spacing: 0;
+
+				font-family: "Uber Move Text", sans-serif;
+				font-weight: 500;
+				color: #57534e;
+			}
+
+			.logo {
+				width: 40vw;
+				max-width: 200px;
+				display: inline-block;
+			}
+
+			.divider {
+				width: 100%;
+				height: 3px;
+				border-radius: 100px;
+				background-color: #e5e5e5;
+			}
+
+			.footer {
+				width: 100%;
+				display: block;
+				padding-top: 10px;
+			}
+
+			.socials {
+				width: 50%;
+				float: left;
+				display: block;
+			}
+
+			.socials a {
+				text-decoration: none;
+			}
+
+			.copyright {
+				width: 50%;
+				float: right;
+			}
+
+			.copyright p {
+				float: right;
+				clear: right;
+			}
+		</style>
+	</head>
+
+	<body>
+		<center class="wrapper">
+			<table class="main" width="100%">
+				<tr style="width: 100%; text-align: center">
+					<td>
+						<img
+							src="https://raw.githubusercontent.com/opal-ink/email-templates/master/assets/logo.png"
+							class="logo"
+						/>
+					</td>
+				</tr>
+				<tr>
+					<td style="padding-top: 20px; padding-bottom: 20px">
+						<div class="divider" />
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<div
+							style="
+								align-self: stretch;
+								padding-bottom: 40px;
+								padding-left: 10px;
+								padding-right: 10px;
+								padding-top: 20px;
+							"
+						>
+							<div
+								style="
+									color: #57534e;
+									font-size: 24px;
+									font-weight: 600;
+									word-wrap: break-word;
+									padding-top: 10px;
+									padding-bottom: 10px;
+								"
+							>
+								Congrats on purchasing Opal+!
+							</div>
+							<div
+								style="
+									align-self: stretch;
+									color: #78716c;
+									font-size: 15px;
+									font-weight: 500;
+									word-wrap: break-word;
+								"
+							>
+								We’re glad you’re here! Your account should update
+								automatically, but in case it doesn't, please contact us at
+								<a target="_blank" href="mailto:landon@learnopal.com"
+									>landon@learnopal.com</a
+								>.
+							</div>
+							<div
+								style="
+									align-self: stretch;
+									color: #78716c;
+									font-size: 15px;
+									font-weight: 500;
+									word-wrap: break-word;
+									padding-bottom: 15px;
+									padding-top: 25px;
+								"
+							>
+								This plan will bill you every {{billing_interval}}. When
+								cancelling, you will still have access to Opal+ until the end of
+								your billing period.
+							</div>
+							<div style="width: 36px; height: 10px; position: relative"></div>
+							<div
+								style="
+									align-self: stretch;
+									color: #78716c;
+									font-size: 15px;
+									font-weight: 700;
+									word-wrap: break-word;
+								"
+							>
+								Thanks,<br />The Opal Team
+							</div>
+						</div>
+					</td>
+				</tr>
+
+				<tr>
+					<td style="padding-bottom: 20px">
+						<div class="divider" />
+					</td>
+				</tr>
+				<tr>
+					<td class="footer">
+						<div class="socials">
+							<a
+								href="https://www.tiktok.com/@learnopal"
+								target="_blank"
+								style="cursor: pointer"
+							>
+								<img
+									src="https://raw.githubusercontent.com/opal-ink/email-templates/master/assets/socials/tiktok.png"
+									style="width: 25px; padding-right: 10px"
+								/>
+							</a>
+							<a href="" target="_blank" style="cursor: pointer">
+								<img
+									src="https://raw.githubusercontent.com/opal-ink/email-templates/master/assets/socials/youtube.png"
+									style="width: 25px; padding-right: 10px"
+								/>
+							</a>
+							<a
+								href="https://www.linkedin.com/company/learnopal/"
+								target="_blank"
+								style="cursor: pointer"
+							>
+								<img
+									src="https://raw.githubusercontent.com/opal-ink/email-templates/master/assets/socials/linkedin.png"
+									style="width: 25px; padding-right: 10px"
+								/>
+							</a>
+							<a
+								href="https://www.instagram.com/learnopal/"
+								target="_blank"
+								style="cursor: pointer"
+							>
+								<img
+									src="https://raw.githubusercontent.com/opal-ink/email-templates/master/assets/socials/instagram.png"
+									style="width: 25px"
+								/>
+							</a>
+						</div>
+						<div class="copyright">
+							<p style="font-size: 14px; font-weight: 400; color: #78716c">
+								(c) 2024 Opal
+							</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</center>
+	</body>
+</html>
